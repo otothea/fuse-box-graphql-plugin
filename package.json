@@ -1,0 +1,32 @@
+{
+  "name": "fuse-box-graphql-plugin",
+  "version": "1.0.0",
+  "description": "Fusebox plugin for .gql|.graphql imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otothea/fuse-box-graphql-plugin.git"
+  },
+  "keywords": [
+    "fuse",
+    "box",
+    "fusebox",
+    "fuse-box",
+    "graphql",
+    "gql",
+    "plugin",
+    "loader"
+  ],
+  "author": "Oscar Armstrong <oscar@otothea.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otothea/fuse-box-graphql-plugin/issues"
+  },
+  "homepage": "https://github.com/otothea/fuse-box-graphql-plugin#readme",
+  "peerDependencies": {
+    "graphql-tag": "^2.0.0"
+  }
+}
