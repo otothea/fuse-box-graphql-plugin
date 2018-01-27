@@ -4,6 +4,12 @@
 
 This lib makes those work in Fusebox.
 
+## Install
+
+```
+npm install fuse-box-graphql-plugin
+```
+
 ## Usage
 
 ```
