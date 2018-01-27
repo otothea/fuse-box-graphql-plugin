@@ -1,5 +1,3 @@
-const loader = require('graphql-tag/loader');
-
 class GraphQLPlugin {
   constructor() {
     this.test = /\.(graphql|gql)$/;
@@ -11,6 +9,8 @@ class GraphQLPlugin {
   }
 
   transform(file) {
+    const loader = require('graphql-tag/loader');
+
     const context = file.context;
     if (context.useCache) {
       const cached = context.cache.getStaticCache(file);
